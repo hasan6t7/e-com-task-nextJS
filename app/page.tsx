@@ -1,5 +1,6 @@
 import Hero from "./Components/Hero/Hero";
 import NewArrival from "./Components/NewArrival/NewArrival";
+import ProductsPage from "./Components/Products/ProductsPage";
 import TopCategory from "./Components/TopCategory/TopCategory";
 import TopElectricBrand from "./Components/TopElectricBrand/TopElectricBrand";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <TopCategory />
       <TopElectricBrand />
       <NewArrival />
+      <ProductsPage />
     </div>
   );
 }

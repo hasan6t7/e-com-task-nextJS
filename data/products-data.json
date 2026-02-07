@@ -1,0 +1,1102 @@
+[
+  {
+    "id": 1,
+    "productName": "Apple MacBook Air Early(2025)",
+    "rating": 4.5,
+    "totalReviews": 180,
+    "price": 849.00,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=800&q=80",
+      "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=800&q=80",
+      "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?w=800&q=80"
+    ],
+    "colors": ["Midnight", "Starlight"],
+    "inStock": true,
+    "description": "Lean and mean M3 machine. MacBook Air sails through work and play - and the M3 chip brings even greater capabilities to the world's most popular laptop. With up to 18 hours of battery life, you can take the super portable Air anywhere and blaze through whatever you're into.",
+    "specifications": {
+      "display": "13.6-inch Liquid Retina display with True Tone",
+      "chip": "Apple M3 chip with 8-core CPU",
+      "memory": "8GB unified memory",
+      "storage": "256GB SSD",
+      "battery": "Up to 18 hours",
+      "features": "Backlit Magic Keyboard, Touch ID, Magic Keyboard, and up to 2 thunderbolt ports"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "Enter your postal code for Delivery Availability"
+    },
+    "ratingBreakdown": {
+      "5": 92,
+      "4": 26,
+      "3": 18,
+      "2": 6,
+      "1": 4
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Jennifer Jr.",
+        "verified": true,
+        "rating": 5,
+        "comment": "Best Quality Product!",
+        "date": "6.10.1025"
+      },
+      {
+        "id": 2,
+        "userName": "Anna Lins",
+        "verified": true,
+        "rating": 5,
+        "comment": "Worth it!",
+        "date": "10.8.1025"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "productName": "iPhone 16 Pro Max (2025)",
+    "rating": 4.8,
+    "totalReviews": 342,
+    "price": 1299.00,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1695048133142-1a20484d2569?w=800&q=80",
+      "https://images.unsplash.com/photo-1592286927505-2fd7c3a0c0f5?w=800&q=80",
+      "https://images.unsplash.com/photo-1556656793-08538906a9f8?w=800&q=80"
+    ],
+    "colors": ["Natural Titanium", "Blue Titanium", "White Titanium", "Black Titanium"],
+    "inStock": true,
+    "description": "Titanium. A17 Pro chip with 6-core GPU. Action button. The ultimate iPhone.",
+    "specifications": {
+      "display": "6.7-inch Super Retina XDR display",
+      "chip": "A17 Pro chip",
+      "memory": "8GB RAM",
+      "storage": "256GB",
+      "battery": "Up to 29 hours video playback",
+      "features": "ProMotion technology, Always-On display, Dynamic Island, Ceramic Shield"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "Enter your postal code for Delivery Availability"
+    },
+    "ratingBreakdown": {
+      "5": 280,
+      "4": 45,
+      "3": 10,
+      "2": 4,
+      "1": 3
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Michael Chen",
+        "verified": true,
+        "rating": 5,
+        "comment": "Camera is absolutely phenomenal!",
+        "date": "15.9.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Sarah Johnson",
+        "verified": true,
+        "rating": 5,
+        "comment": "Best phone I've ever owned",
+        "date": "20.9.2025"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "productName": "Samsung Galaxy S24 Ultra",
+    "rating": 4.7,
+    "totalReviews": 256,
+    "price": 1199.99,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?w=800&q=80",
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&q=80",
+      "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=800&q=80"
+    ],
+    "colors": ["Titanium Black", "Titanium Gray", "Titanium Violet"],
+    "inStock": true,
+    "description": "Meet Galaxy S24 Ultra, the ultimate form of Galaxy Ultra with a new titanium exterior and a 17.25cm flat display.",
+    "specifications": {
+      "display": "6.8-inch Dynamic AMOLED 2X",
+      "chip": "Snapdragon 8 Gen 3",
+      "memory": "12GB RAM",
+      "storage": "256GB",
+      "battery": "5000mAh",
+      "features": "S Pen included, 200MP camera, 100x Space Zoom"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "Same day delivery available in select areas"
+    },
+    "ratingBreakdown": {
+      "5": 190,
+      "4": 48,
+      "3": 12,
+      "2": 4,
+      "1": 2
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "David Park",
+        "verified": true,
+        "rating": 5,
+        "comment": "S Pen is a game changer!",
+        "date": "5.8.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Emily Roberts",
+        "verified": true,
+        "rating": 4,
+        "comment": "Great phone but expensive",
+        "date": "12.8.2025"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "productName": "Sony WH-1000XM5 Headphones",
+    "rating": 4.9,
+    "totalReviews": 421,
+    "price": 399.99,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=800&q=80",
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80",
+      "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=800&q=80"
+    ],
+    "colors": ["Black", "Silver"],
+    "inStock": true,
+    "description": "Industry-leading noise cancellation with Auto NC Optimizer and unprecedented audio quality with LDAC codec.",
+    "specifications": {
+      "display": "N/A",
+      "chip": "Integrated Processor V1",
+      "memory": "N/A",
+      "storage": "N/A",
+      "battery": "Up to 30 hours",
+      "features": "Multipoint connection, Speak-to-Chat, Wearing detection"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "Ships within 24 hours"
+    },
+    "ratingBreakdown": {
+      "5": 380,
+      "4": 32,
+      "3": 6,
+      "2": 2,
+      "1": 1
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "James Wilson",
+        "verified": true,
+        "rating": 5,
+        "comment": "Best noise cancelling headphones ever!",
+        "date": "3.9.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Lisa Anderson",
+        "verified": true,
+        "rating": 5,
+        "comment": "Perfect for long flights",
+        "date": "10.9.2025"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "productName": "Dell XPS 15 (2025)",
+    "rating": 4.6,
+    "totalReviews": 198,
+    "price": 1799.99,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?w=800&q=80",
+      "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?w=800&q=80",
+      "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=800&q=80"
+    ],
+    "colors": ["Platinum Silver", "Graphite"],
+    "inStock": true,
+    "description": "The XPS 15 is expertly crafted with premium materials for an elegant look and feel.",
+    "specifications": {
+      "display": "15.6-inch 4K OLED InfinityEdge",
+      "chip": "Intel Core i7-13th Gen",
+      "memory": "16GB DDR5 RAM",
+      "storage": "512GB SSD",
+      "battery": "Up to 13 hours",
+      "features": "NVIDIA GeForce RTX 4050, Thunderbolt 4, Wi-Fi 6E"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "2-3 business days"
+    },
+    "ratingBreakdown": {
+      "5": 145,
+      "4": 38,
+      "3": 10,
+      "2": 3,
+      "1": 2
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Robert Martinez",
+        "verified": true,
+        "rating": 5,
+        "comment": "Perfect for video editing!",
+        "date": "18.7.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Karen White",
+        "verified": true,
+        "rating": 4,
+        "comment": "Great laptop but gets hot",
+        "date": "25.7.2025"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "productName": "Apple Watch Series 9",
+    "rating": 4.7,
+    "totalReviews": 567,
+    "price": 429.00,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1434493789847-2f02dc6ca35d?w=800&q=80",
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?w=800&q=80",
+      "https://images.unsplash.com/photo-1551816230-ef5deaed4a26?w=800&q=80"
+    ],
+    "colors": ["Midnight", "Starlight", "Silver", "Product Red"],
+    "inStock": true,
+    "description": "Our most powerful chip yet. A magical new way to use your Watch without touching the display.",
+    "specifications": {
+      "display": "Always-On Retina LTPO OLED",
+      "chip": "S9 SiP",
+      "memory": "1GB RAM",
+      "storage": "64GB",
+      "battery": "Up to 18 hours",
+      "features": "Double Tap gesture, Blood Oxygen, ECG, Crash Detection"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "Available for pickup today"
+    },
+    "ratingBreakdown": {
+      "5": 450,
+      "4": 85,
+      "3": 20,
+      "2": 8,
+      "1": 4
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Tom Harris",
+        "verified": true,
+        "rating": 5,
+        "comment": "Double tap feature is amazing!",
+        "date": "1.8.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Jessica Brown",
+        "verified": true,
+        "rating": 5,
+        "comment": "Love the health features",
+        "date": "8.8.2025"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "productName": "LG 65-inch OLED C3 TV",
+    "rating": 4.8,
+    "totalReviews": 234,
+    "price": 1999.99,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593359677879-a4bb92f829d1?w=800&q=80",
+      "https://images.unsplash.com/photo-1593078165957-75b0370e8e5f?w=800&q=80",
+      "https://images.unsplash.com/photo-1601944177325-f8867652837f?w=800&q=80"
+    ],
+    "colors": ["Black"],
+    "inStock": true,
+    "description": "Experience the award-winning picture quality of LG OLED with the α9 AI Processor Gen6.",
+    "specifications": {
+      "display": "65-inch OLED 4K",
+      "chip": "α9 AI Processor Gen6",
+      "memory": "N/A",
+      "storage": "N/A",
+      "battery": "N/A",
+      "features": "Dolby Vision IQ, Dolby Atmos, HDMI 2.1, 120Hz, G-SYNC"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery & Installation",
+      "details": "Professional installation included"
+    },
+    "ratingBreakdown": {
+      "5": 195,
+      "4": 28,
+      "3": 7,
+      "2": 3,
+      "1": 1
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Chris Taylor",
+        "verified": true,
+        "rating": 5,
+        "comment": "Picture quality is stunning!",
+        "date": "12.6.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Amanda Lewis",
+        "verified": true,
+        "rating": 5,
+        "comment": "Perfect for gaming and movies",
+        "date": "19.6.2025"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "productName": "Nintendo Switch OLED",
+    "rating": 4.6,
+    "totalReviews": 678,
+    "price": 349.99,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1578303512597-81e6cc155b3e?w=800&q=80",
+      "https://images.unsplash.com/photo-1622297845775-5ff3fef71d13?w=800&q=80",
+      "https://images.unsplash.com/photo-1606144042614-b2417e99c4e3?w=800&q=80"
+    ],
+    "colors": ["White", "Neon Red/Blue"],
+    "inStock": true,
+    "description": "Meet the newest member of the Nintendo Switch family with a vibrant 7-inch OLED screen.",
+    "specifications": {
+      "display": "7-inch OLED touchscreen",
+      "chip": "Custom NVIDIA Tegra",
+      "memory": "4GB RAM",
+      "storage": "64GB",
+      "battery": "4.5 - 9 hours",
+      "features": "Enhanced audio, Wide adjustable stand, Dock with wired LAN port"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "Ships within 1-2 business days"
+    },
+    "ratingBreakdown": {
+      "5": 520,
+      "4": 110,
+      "3": 32,
+      "2": 12,
+      "1": 4
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Mark Johnson",
+        "verified": true,
+        "rating": 5,
+        "comment": "OLED screen is gorgeous!",
+        "date": "5.7.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Rachel Green",
+        "verified": true,
+        "rating": 4,
+        "comment": "Great upgrade from original Switch",
+        "date": "14.7.2025"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "productName": "Bose QuietComfort Earbuds II",
+    "rating": 4.7,
+    "totalReviews": 389,
+    "price": 299.00,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?w=800&q=80",
+      "https://images.unsplash.com/photo-1606841837239-c5a1a4a07af7?w=800&q=80",
+      "https://images.unsplash.com/photo-1598327105666-5b89351aff97?w=800&q=80"
+    ],
+    "colors": ["Triple Black", "Soapstone"],
+    "inStock": true,
+    "description": "Personalized noise cancellation and sound. CustomTune technology auto-adjusts to your ears.",
+    "specifications": {
+      "display": "N/A",
+      "chip": "Custom DSP",
+      "memory": "N/A",
+      "storage": "N/A",
+      "battery": "Up to 6 hours (24 with case)",
+      "features": "IPX4 water resistant, Touch controls, Transparency mode"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "Express delivery available"
+    },
+    "ratingBreakdown": {
+      "5": 310,
+      "4": 58,
+      "3": 15,
+      "2": 4,
+      "1": 2
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Steven Clark",
+        "verified": true,
+        "rating": 5,
+        "comment": "Best earbuds for commuting!",
+        "date": "22.8.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Nicole Davis",
+        "verified": true,
+        "rating": 5,
+        "comment": "Sound quality is incredible",
+        "date": "28.8.2025"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "productName": "Canon EOS R6 Mark II",
+    "rating": 4.9,
+    "totalReviews": 156,
+    "price": 2499.00,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1606983340126-99ab4feaa64a?w=800&q=80",
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?w=800&q=80",
+      "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?w=800&q=80"
+    ],
+    "colors": ["Black"],
+    "inStock": true,
+    "description": "24.2 Megapixel full-frame CMOS sensor with impressive low-light performance.",
+    "specifications": {
+      "display": "3.2-inch vari-angle touchscreen LCD",
+      "chip": "DIGIC X Processor",
+      "memory": "N/A",
+      "storage": "Dual card slots (SD)",
+      "battery": "Up to 760 shots",
+      "features": "40 fps RAW burst, 6K video, In-body stabilization"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "Signature required"
+    },
+    "ratingBreakdown": {
+      "5": 142,
+      "4": 10,
+      "3": 2,
+      "2": 1,
+      "1": 1
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Alex Turner",
+        "verified": true,
+        "rating": 5,
+        "comment": "Professional quality camera!",
+        "date": "10.6.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Olivia Martinez",
+        "verified": true,
+        "rating": 5,
+        "comment": "Worth every penny",
+        "date": "17.6.2025"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "productName": "iPad Pro 12.9-inch M2",
+    "rating": 4.8,
+    "totalReviews": 445,
+    "price": 1099.00,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1544244015-0df4b3ffc6b0?w=800&q=80",
+      "https://images.unsplash.com/photo-1585790050230-5dd28404f905?w=800&q=80",
+      "https://images.unsplash.com/photo-1561154464-82e9adf32764?w=800&q=80"
+    ],
+    "colors": ["Space Gray", "Silver"],
+    "inStock": true,
+    "description": "The ultimate iPad experience with the most advanced technology.",
+    "specifications": {
+      "display": "12.9-inch Liquid Retina XDR",
+      "chip": "Apple M2 chip",
+      "memory": "8GB RAM",
+      "storage": "128GB",
+      "battery": "Up to 10 hours",
+      "features": "ProMotion, Face ID, Apple Pencil hover, Thunderbolt"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "Next day delivery available"
+    },
+    "ratingBreakdown": {
+      "5": 370,
+      "4": 55,
+      "3": 12,
+      "2": 5,
+      "1": 3
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Daniel Kim",
+        "verified": true,
+        "rating": 5,
+        "comment": "Best tablet for creativity!",
+        "date": "2.9.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Sophie Turner",
+        "verified": true,
+        "rating": 5,
+        "comment": "Replaced my laptop",
+        "date": "9.9.2025"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "productName": "Dyson V15 Detect Vacuum",
+    "rating": 4.6,
+    "totalReviews": 523,
+    "price": 749.99,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1558317374-067fb5f30001?w=800&q=80",
+      "https://images.unsplash.com/photo-1600493572964-1c0d69ed29d7?w=800&q=80",
+      "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?w=800&q=80"
+    ],
+    "colors": ["Yellow/Nickel"],
+    "inStock": true,
+    "description": "Reveals invisible dust and adapts suction power automatically.",
+    "specifications": {
+      "display": "LCD screen",
+      "chip": "Dyson Hyperdymium motor",
+      "memory": "N/A",
+      "storage": "N/A",
+      "battery": "Up to 60 minutes",
+      "features": "Laser dust detection, HEPA filtration, 5-stage filtration"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "White glove delivery available"
+    },
+    "ratingBreakdown": {
+      "5": 420,
+      "4": 72,
+      "3": 20,
+      "2": 8,
+      "1": 3
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Patricia Moore",
+        "verified": true,
+        "rating": 5,
+        "comment": "Amazing cleaning power!",
+        "date": "15.5.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Brian Wilson",
+        "verified": true,
+        "rating": 4,
+        "comment": "Great but pricey",
+        "date": "22.5.2025"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "productName": "Microsoft Surface Laptop 5",
+    "rating": 4.5,
+    "totalReviews": 267,
+    "price": 1299.99,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1629131726692-1accd0c53ce0?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1629131726692-1accd0c53ce0?w=800&q=80",
+      "https://images.unsplash.com/photo-1611186871348-b1ce696e52c9?w=800&q=80",
+      "https://images.unsplash.com/photo-1542393545-10f5cde2c810?w=800&q=80"
+    ],
+    "colors": ["Platinum", "Matte Black", "Sage"],
+    "inStock": true,
+    "description": "Sleek and powerful laptop with all-day battery life.",
+    "specifications": {
+      "display": "13.5-inch PixelSense touchscreen",
+      "chip": "Intel Core i7 12th Gen",
+      "memory": "16GB LPDDR5x RAM",
+      "storage": "512GB SSD",
+      "battery": "Up to 17 hours",
+      "features": "Dolby Atmos, Windows Hello, Thunderbolt 4"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "Standard shipping 3-5 days"
+    },
+    "ratingBreakdown": {
+      "5": 195,
+      "4": 52,
+      "3": 14,
+      "2": 4,
+      "1": 2
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Kevin Brown",
+        "verified": true,
+        "rating": 5,
+        "comment": "Perfect for work and play!",
+        "date": "8.7.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Michelle Lee",
+        "verified": true,
+        "rating": 4,
+        "comment": "Love the design",
+        "date": "15.7.2025"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "productName": "GoPro HERO12 Black",
+    "rating": 4.7,
+    "totalReviews": 512,
+    "price": 399.99,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=800&q=80",
+      "https://images.unsplash.com/photo-1614028674026-a65e31bfd27c?w=800&q=80",
+      "https://images.unsplash.com/photo-1531525645387-7f14be1bdbbd?w=800&q=80"
+    ],
+    "colors": ["Black"],
+    "inStock": true,
+    "description": "Next-level performance with ultra-wide 8:7 sensor for maximum versatility.",
+    "specifications": {
+      "display": "2.27-inch rear touchscreen",
+      "chip": "GP2 Processor",
+      "memory": "N/A",
+      "storage": "Up to 512GB (microSD)",
+      "battery": "Up to 70 minutes",
+      "features": "5.3K60 video, HyperSmooth 6.0, 10-bit color, HDR"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "Ships today if ordered by 2PM"
+    },
+    "ratingBreakdown": {
+      "5": 410,
+      "4": 75,
+      "3": 18,
+      "2": 6,
+      "1": 3
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Ryan Cooper",
+        "verified": true,
+        "rating": 5,
+        "comment": "Best action camera ever!",
+        "date": "3.8.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Emma Watson",
+        "verified": true,
+        "rating": 5,
+        "comment": "Perfect for adventure",
+        "date": "10.8.2025"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "productName": "Kindle Paperwhite Signature",
+    "rating": 4.8,
+    "totalReviews": 892,
+    "price": 189.99,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1592496431122-2349e0fbc666?w=800&q=80",
+      "https://images.unsplash.com/photo-1598618356794-6f28f4f37da0?w=800&q=80",
+      "https://images.unsplash.com/photo-1513001900722-370f803f498d?w=800&q=80"
+    ],
+    "colors": ["Black"],
+    "inStock": true,
+    "description": "Premium reading experience with auto-adjusting front light and wireless charging.",
+    "specifications": {
+      "display": "6.8-inch glare-free",
+      "chip": "Custom processor",
+      "memory": "N/A",
+      "storage": "32GB",
+      "battery": "Up to 10 weeks",
+      "features": "Waterproof (IPX8), Auto-adjusting light, Wireless charging"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "Usually ships within 24 hours"
+    },
+    "ratingBreakdown": {
+      "5": 750,
+      "4": 105,
+      "3": 25,
+      "2": 8,
+      "1": 4
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Laura Garcia",
+        "verified": true,
+        "rating": 5,
+        "comment": "Perfect for reading in bed!",
+        "date": "12.9.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Matthew Scott",
+        "verified": true,
+        "rating": 5,
+        "comment": "Battery life is amazing",
+        "date": "19.9.2025"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "productName": "Razer Blade 15 Gaming Laptop",
+    "rating": 4.6,
+    "totalReviews": 178,
+    "price": 2499.99,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1603302576837-37561b2e2302?w=800&q=80",
+      "https://images.unsplash.com/photo-1587202372634-32705e3bf49c?w=800&q=80",
+      "https://images.unsplash.com/photo-1618424181497-157f25b6ddd5?w=800&q=80"
+    ],
+    "colors": ["Black"],
+    "inStock": true,
+    "description": "The ultimate gaming laptop with cutting-edge performance in a compact chassis.",
+    "specifications": {
+      "display": "15.6-inch QHD 240Hz",
+      "chip": "Intel Core i9-13th Gen",
+      "memory": "32GB DDR5 RAM",
+      "storage": "1TB SSD",
+      "battery": "Up to 6 hours",
+      "features": "NVIDIA RTX 4070, THX Spatial Audio, Per-Key RGB"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "Express shipping available"
+    },
+    "ratingBreakdown": {
+      "5": 132,
+      "4": 32,
+      "3": 9,
+      "2": 3,
+      "1": 2
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Tyler Johnson",
+        "verified": true,
+        "rating": 5,
+        "comment": "Gaming powerhouse!",
+        "date": "6.6.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Ashley Miller",
+        "verified": true,
+        "rating": 4,
+        "comment": "Great but runs hot",
+        "date": "13.6.2025"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "productName": "Fitbit Charge 6",
+    "rating": 4.5,
+    "totalReviews": 634,
+    "price": 159.95,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1575311373937-040b8e1fd5b6?w=800&q=80",
+      "https://images.unsplash.com/photo-1557935728-e6d1eaabe558?w=800&q=80",
+      "https://images.unsplash.com/photo-1576243345690-4e4b79b63288?w=800&q=80"
+    ],
+    "colors": ["Obsidian", "Coral", "Porcelain"],
+    "inStock": true,
+    "description": "Advanced health and fitness tracker with built-in GPS and heart rate monitoring.",
+    "specifications": {
+      "display": "1.04-inch AMOLED",
+      "chip": "Custom fitness processor",
+      "memory": "N/A",
+      "storage": "N/A",
+      "battery": "Up to 7 days",
+      "features": "GPS, Heart rate zones, Sleep tracking, Stress management"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "Ships within 2 days"
+    },
+    "ratingBreakdown": {
+      "5": 480,
+      "4": 105,
+      "3": 32,
+      "2": 12,
+      "1": 5
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Rebecca Adams",
+        "verified": true,
+        "rating": 5,
+        "comment": "Great for tracking workouts!",
+        "date": "20.7.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Jason Lee",
+        "verified": true,
+        "rating": 4,
+        "comment": "Good value for money",
+        "date": "27.7.2025"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "productName": "Sonos Arc Soundbar",
+    "rating": 4.8,
+    "totalReviews": 356,
+    "price": 899.00,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1608043152269-423dbba4e7e1?w=800&q=80",
+      "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800&q=80",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+    ],
+    "colors": ["Black", "White"],
+    "inStock": true,
+    "description": "Premium smart soundbar for TV, movies, music, gaming, and more.",
+    "specifications": {
+      "display": "N/A",
+      "chip": "Custom audio processor",
+      "memory": "N/A",
+      "storage": "N/A",
+      "battery": "N/A (Wired)",
+      "features": "Dolby Atmos, eARC/ARC, Voice control, Trueplay tuning"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "Professional setup available"
+    },
+    "ratingBreakdown": {
+      "5": 295,
+      "4": 45,
+      "3": 10,
+      "2": 4,
+      "1": 2
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "William Thompson",
+        "verified": true,
+        "rating": 5,
+        "comment": "Incredible sound quality!",
+        "date": "4.8.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Stephanie Hill",
+        "verified": true,
+        "rating": 5,
+        "comment": "Worth every dollar",
+        "date": "11.8.2025"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "productName": "Logitech MX Master 3S Mouse",
+    "rating": 4.9,
+    "totalReviews": 1024,
+    "price": 99.99,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1527864550417-7fd91fc51a46?w=800&q=80",
+      "https://images.unsplash.com/photo-1586920740099-e8b40af3e302?w=800&q=80",
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800&q=80"
+    ],
+    "colors": ["Graphite", "Pale Gray"],
+    "inStock": true,
+    "description": "Iconic mouse reimagined. Quieter clicks, exceptional tracking, and ergonomic design.",
+    "specifications": {
+      "display": "N/A",
+      "chip": "Logitech Darkfield sensor",
+      "memory": "N/A",
+      "storage": "N/A",
+      "battery": "Up to 70 days",
+      "features": "8K DPI, Quiet clicks, MagSpeed wheel, Multi-device"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "Next day delivery available"
+    },
+    "ratingBreakdown": {
+      "5": 890,
+      "4": 98,
+      "3": 22,
+      "2": 10,
+      "1": 4
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Andrew Collins",
+        "verified": true,
+        "rating": 5,
+        "comment": "Best mouse I've ever used!",
+        "date": "16.9.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Victoria Young",
+        "verified": true,
+        "rating": 5,
+        "comment": "So comfortable for long work sessions",
+        "date": "23.9.2025"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "productName": "Anker PowerCore 26800 Power Bank",
+    "rating": 4.7,
+    "totalReviews": 2156,
+    "price": 65.99,
+    "currency": "$",
+    "mainImage": "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=800&q=80",
+    "images": [
+      "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?w=800&q=80",
+      "https://images.unsplash.com/photo-1583394838336-acd977736f90?w=800&q=80",
+      "https://images.unsplash.com/photo-1624823183493-ed5832f48f18?w=800&q=80"
+    ],
+    "colors": ["Black"],
+    "inStock": true,
+    "description": "Ultra-high capacity portable charger with fast charging technology.",
+    "specifications": {
+      "display": "LED indicators",
+      "chip": "PowerIQ technology",
+      "memory": "N/A",
+      "storage": "N/A",
+      "battery": "26800mAh",
+      "features": "3 USB ports, Surge protection, MultiProtect safety"
+    },
+    "delivery": {
+      "available": true,
+      "message": "Free Delivery",
+      "details": "Amazon Prime eligible"
+    },
+    "ratingBreakdown": {
+      "5": 1820,
+      "4": 245,
+      "3": 58,
+      "2": 22,
+      "1": 11
+    },
+    "reviews": [
+      {
+        "id": 1,
+        "userName": "Gregory Hall",
+        "verified": true,
+        "rating": 5,
+        "comment": "Charges my phone 6 times!",
+        "date": "25.9.2025"
+      },
+      {
+        "id": 2,
+        "userName": "Catherine Allen",
+        "verified": true,
+        "rating": 5,
+        "comment": "Perfect for travel",
+        "date": "30.9.2025"
+      }
+    ]
+  }
+]
