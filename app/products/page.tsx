@@ -6,6 +6,7 @@ import { ShoppingCart, Filter, ChevronDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+import { useCart } from "@/context/cart-context";
 
 interface Product {
   id: number;
@@ -23,6 +24,7 @@ export default function ProductsPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [displayCount, setDisplayCount] = useState(8);
+  const { addToCart } = useCart();
 
   useEffect(() => {
     fetchProducts();
@@ -42,8 +44,9 @@ export default function ProductsPage() {
     }
   };
 
-  const handleAddToCart = (productId: number) => {
-    console.log("Added to cart:", productId);
+  const handleAddToCart = (product: Product) => {
+     addToCart(product, 1);
+    alert(`${product.productName} added to cart!`);
   };
 
   const displayedProducts = products.slice(0, displayCount);
@@ -149,8 +152,8 @@ export default function ProductsPage() {
 
                 <div className="p-4">
                   <button
-                    onClick={() => handleAddToCart(product.id)}
-                    className="w-full bg-[#1163CF] hover:bg-[#0e50b0] text-white py-2.5 rounded-md font-medium text-sm flex items-center justify-center gap-2 mb-3 transition-colors"
+                    onClick={() => handleAddToCart(product)}
+                    className="w-full bg-[#1163CF] hover:bg-[#0e50b0] text-white py-2.5 rounded-md font-medium text-sm flex items-center justify-center gap-2 mb-3 transition-colors cursor-pointer"
                   >
                     <ShoppingCart className="w-4 h-4" />
                     Add To Cart

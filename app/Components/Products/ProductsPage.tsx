@@ -6,6 +6,7 @@ import { ShoppingCart, Filter, ChevronDown } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
+import { useCart } from "@/context/cart-context";
 
 interface Product {
   id: number;
@@ -23,6 +24,7 @@ export default function ProductsPage() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [displayCount, setDisplayCount] = useState(8);
+  const { addToCart } = useCart();
 
   useEffect(() => {
     fetchProducts();
@@ -42,8 +44,9 @@ export default function ProductsPage() {
     }
   };
 
-  const handleAddToCart = (productId: number) => {
-    console.log("Added to cart:", productId);
+  const handleAddToCart = (product: Product) => {
+    addToCart(product, 1);
+    alert(`${product.productName} added to cart!`);
   };
 
   const displayedProducts = products.slice(0, displayCount);
@@ -127,36 +130,41 @@ export default function ProductsPage() {
                 key={product.id}
                 className="bg-white rounded-lg overflow-hidden shadow-sm hover:shadow-md transition-shadow group"
               >
-                <Link className="cursor-pointer" href={`/products/${product.id}`}>
-                
-                <div className="relative aspect-square bg-gray-100">
-                  {badge && (
-                    <span
-                      className={`absolute top-3 left-3 ${badge.color} text-white text-xs font-semibold px-2 py-1 rounded z-10`}
-                    >
-                      {badge.text}
-                    </span>
-                  )}
+                <Link
+                  className="cursor-pointer"
+                  href={`/products/${product.id}`}
+                >
+                  <div className="relative aspect-square bg-gray-100">
+                    {badge && (
+                      <span
+                        className={`absolute top-3 left-3 ${badge.color} text-white text-xs font-semibold px-2 py-1 rounded z-10`}
+                      >
+                        {badge.text}
+                      </span>
+                    )}
 
-                  <Image
-                    src={product.mainImage}
-                    alt={product.productName}
-                    fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-300"
-                  />
-                </div>
+                    <Image
+                      src={product.mainImage}
+                      alt={product.productName}
+                      fill
+                      className="object-cover group-hover:scale-105 transition-transform duration-300"
+                    />
+                  </div>
                 </Link>
 
                 <div className="p-4">
                   <button
-                    onClick={() => handleAddToCart(product.id)}
+                    onClick={() => handleAddToCart(product)}
                     className="w-full bg-[#1163CF] hover:bg-[#0e50b0] text-white py-2.5 rounded-md font-medium text-sm flex items-center justify-center gap-2 mb-3 transition-colors"
                   >
                     <ShoppingCart className="w-4 h-4" />
                     Add To Cart
                   </button>
 
-                  <Link className="cursor-pointer" href={`/products/${product.id}`}>
+                  <Link
+                    className="cursor-pointer"
+                    href={`/products/${product.id}`}
+                  >
                     <h3 className="font-semibold text-gray-900 mb-2 hover:text-[#1163CF] transition-colors line-clamp-1">
                       {product.productName}
                     </h3>

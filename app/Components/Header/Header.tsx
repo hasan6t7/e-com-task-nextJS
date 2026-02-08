@@ -17,6 +17,7 @@ import {
   Mail,
 } from "lucide-react";
 import { categories } from "@/lib/helper";
+import { useCart } from "@/context/cart-context";
 
 const navLinks = [
   { name: "Home", href: "/", color: "#1163CF" },
@@ -31,6 +32,7 @@ export default function Header() {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [isCatOpen, setIsCatOpen] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const { getCartCount } = useCart();
 
   return (
     <header className="w-full relative">
@@ -64,7 +66,6 @@ export default function Header() {
       <div className="bg-white border-b shadow-sm">
         <div className="max-w-[1440px] mx-auto px-4">
           <div className="flex items-center justify-between py-4 gap-4">
-            {/* Logo */}
             <Link
               href="/"
               className="text-2xl font-bold text-[#1163CF] flex-shrink-0"
@@ -107,9 +108,11 @@ export default function Header() {
                 className="relative text-gray-700 hover:text-[#1163CF] transition-colors"
               >
                 <ShoppingCart className="w-6 h-6" />
-                <span className="absolute -top-2 -right-2 bg-[#1163CF] text-white text-xs rounded-full w-5 h-5 flex items-center justify-center font-semibold">
-                  2
-                </span>
+                {getCartCount() > 0 && (
+                  <span className="absolute -top-2 -right-2 bg-[#1163CF] text-white text-xs rounded-full w-5 h-5 flex items-center justify-center font-semibold">
+                    {getCartCount()}
+                  </span>
+                )}
               </Link>
 
               <button
