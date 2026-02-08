@@ -19,11 +19,11 @@ interface Product {
   inStock: boolean;
 }
 
-export default function ProductsPage() {
+export default function ProCard() {
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
-  const [displayCount, setDisplayCount] = useState(8);
+  const [displayCount, setDisplayCount] = useState(4);
   const { addToCart } = useCart();
 
   useEffect(() => {
@@ -101,25 +101,7 @@ export default function ProductsPage() {
   return (
     <div className=" py-8 my-10">
       <div className="max-w-[1440px] mx-auto px-4">
-        <div className="flex flex-col md:flex-row md:items-center gap-5 justify-between mb-8">
-          <div>
-            <h1 className="text-2xl md:text-4xl font-semibold pb-4 border-b-4 md:border-b-9 border-[#1163CF] w-max">
-              Explore Our Products{" "}
-            </h1>
-          </div>
-
-          <div className="flex items-center gap-4">
-            <button className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors">
-              <Filter className="w-5 h-5 text-gray-600" />
-              <span className="text-gray-700">Filters</span>
-            </button>
-
-            <button className="flex items-center gap-2 px-4 py-2 border border-gray-300 rounded-md hover:bg-gray-50 transition-colors">
-              <span className="text-gray-700">Sort By</span>
-              <ChevronDown className="w-4 h-4 text-gray-600" />
-            </button>
-          </div>
-        </div>
+       
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 mb-8">
           {displayedProducts.map((product, index) => {
@@ -193,35 +175,8 @@ export default function ProductsPage() {
           })}
         </div>
 
-        {products.length > displayCount && (
-          <div className="text-center">
-            <button
-              onClick={() => setDisplayCount(products.length)}
-              className="px-12 py-3 bg-[#1163CF] hover:bg-[#0e50b0] text-white font-semibold rounded-md transition-colors"
-            >
-              View All
-            </button>
-          </div>
-        )}
-
-        <button
-          onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}
-          className="fixed bottom-8 right-8 bg-gray-200 hover:bg-gray-300 p-3 rounded-full shadow-lg transition-colors"
-        >
-          <svg
-            className="w-6 h-6 text-gray-700"
-            fill="none"
-            stroke="currentColor"
-            viewBox="0 0 24 24"
-          >
-            <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth={2}
-              d="M5 10l7-7m0 0l7 7m-7-7v18"
-            />
-          </svg>
-        </button>
+      
+      
       </div>
     </div>
   );

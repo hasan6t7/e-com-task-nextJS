@@ -10,14 +10,11 @@ import {
   ChevronDown,
   Menu,
   X,
-  Facebook,
-  Twitter,
-  Instagram,
-  Linkedin,
   Mail,
 } from "lucide-react";
 import { categories } from "@/lib/helper";
 import { useCart } from "@/context/cart-context";
+import { FaFacebookF, FaInstagram, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const navLinks = [
   { name: "Home", href: "/", color: "#1163CF" },
@@ -42,21 +39,21 @@ export default function Header() {
             <div className="flex items-center gap-2">
               <Mail className="w-4 h-4" />
               <span className="text-lg sm:text-sm">
-                Email: support@buybee.com
+               support@buybee.com
               </span>
             </div>
             <div className="flex items-center gap-3">
               <Link href="#" className="">
-                <Facebook className="w-4 h-4" />
+                <FaFacebookF className="w-5 h-5" />
               </Link>
               <Link href="#" className="">
-                <Twitter className="w-4 h-4" />
+                <FaTwitter className="w-5 h-5" />
               </Link>
               <Link href="#" className="">
-                <Instagram className="w-4 h-4" />
+                <FaInstagram className="w-5 h-5" />
               </Link>
               <Link href="#" className="">
-                <Linkedin className="w-4 h-4" />
+                <FaLinkedinIn className="w-5 h-5" />
               </Link>
             </div>
           </div>
@@ -148,7 +145,7 @@ export default function Header() {
       <div className="hidden sm:block bg-white border-b">
         <div className="max-w-[1440px] mx-auto px-4">
           <div className="flex items-center justify-between ">
-            <div className="bg-[#1163CF]  text-white px-6 py-3 flex items-center gap-4 hover:bg-[#002d8a] transition-colors font-medium w-60">
+            <div className="bg-[#1163CF]  text-white px-6 py-3 flex items-center gap-4 hover:bg-[#0956bb] transition-colors font-medium w-60">
               <span>All Categories</span>
               <Menu className="w-5 h-5" />
             </div>
@@ -192,7 +189,7 @@ export default function Header() {
                     onClick={() => setIsMobileMenuOpen(false)}
                     className={`px-4 py-3 font-medium rounded-md transition-colors`}
                   >
-                    {cat.name}
+                  -  {cat.name}
                   </Link>
                 ))}
             </div>

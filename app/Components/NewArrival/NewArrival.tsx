@@ -9,7 +9,7 @@ const NewArrival = () => {
   return (
     <div className="mt-20">
       <div className="flex items-center justify-between">
-        <h1 className="text-4xl font-semibold pb-4 border-b-9 border-[#1163CF] w-max">
+        <h1 className="text-2xl md:text-4xl font-semibold pb-4 border-b-4 md:border-b-9 border-[#1163CF] w-max">
           New Arrival
         </h1>
         <div className="flex items-center gap-3">

@@ -81,7 +81,7 @@ const BestSellingProduct = () => {
   return (
     <div className="mt-20">
       <div className="flex items-center justify-between">
-        <h1 className="text-4xl font-semibold pb-4 border-b-9 border-[#1163CF] w-max">
+        <h1 className="text-2xl md:text-4xl font-semibold pb-4 border-b-5 md:border-b-9 border-[#1163CF] w-max">
           Best Selling Product
         </h1>
         <div className="flex items-center gap-3">
@@ -89,7 +89,7 @@ const BestSellingProduct = () => {
             <div className="text-center">
               <button
                 onClick={() => setDisplayCount((prev) => prev + 4)}
-                className="px-12 py-3 bg-[#1163CF] hover:bg-[#0e50b0] text-white font-semibold rounded-md transition-colors"
+                className="px-5 py-3 bg-[#1163CF] hover:bg-[#0e50b0] text-white font-semibold rounded-md transition-colors"
               >
                 View All
               </button>

@@ -13,6 +13,7 @@ import {
   ChevronRight,
 } from "lucide-react";
 import { AiFillStar, AiOutlineStar, AiTwotoneStar } from "react-icons/ai";
+import ProCard from "@/app/Components/ProCard/ProCard";
 
 interface Product {
   id: number;
@@ -462,6 +463,7 @@ export default function ProductDetailsPage() {
           </div>
         </div>
       </div>
+      <ProCard />
     </div>
   );
 }
