@@ -35,7 +35,6 @@ All data is handled using **dummy JSON data**—no backend integration is requir
 - **Styling:** Tailwind CSS
 - **UI Components:** shadcn/ui
 - **Icons:** lucide-react, react-icons
-- **Carousel:** embla-carousel-react
 - **HTTP Client:** Axios
 - **Notifications:** react-toastify
 - **Deployment:** Vercel
@@ -46,7 +45,6 @@ All data is handled using **dummy JSON data**—no backend integration is requir
 
 Follow the steps below to run the project locally:
 
-### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/hasan6t7/e-commerce-task.git
 cd e-commerce-task
