@@ -1,36 +1,55 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🛒 E-Commerce Frontend Platform
 
-## Getting Started
+A modern and fully responsive e-commerce frontend built as part of a **Frontend Developer technical assessment**.  
+The project follows the provided Figma design and is developed using **Next.js, TypeScript, Tailwind CSS, and shadcn/ui**.
 
-First, run the development server:
+🔗 **Live Demo:** https://e-commerce-task-beryl.vercel.app/
 
+---
+
+## 📌 Project Overview
+
+This project demonstrates frontend development skills including UI implementation, responsiveness, component reusability, and clean architecture.  
+All data is handled using **dummy JSON data**—no backend integration is required.
+
+---
+
+## 🚀 Features
+
+- ⚡ Built with **Next.js (App Router)**
+- 🎨 Pixel-perfect UI from Figma
+- 📱 Fully responsive across all devices
+- 🧩 Reusable UI components using **shadcn/ui**
+- 🗂️ Dummy JSON-based product & category data
+- 🎭 Icons using **lucide-react** & **react-icons**
+- 🔔 Toast notifications for better UX
+- ✨ Smooth carousel & UI animations
+- 📦 Clean and scalable folder structure
+
+---
+
+## 🛠️ Technologies Used
+
+- **Framework:** Next.js 16
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **UI Components:** shadcn/ui
+- **Icons:** lucide-react, react-icons
+- **Carousel:** embla-carousel-react
+- **HTTP Client:** Axios
+- **Notifications:** react-toastify
+- **Deployment:** Vercel
+
+---
+
+## ⚙️ Installation Process
+
+Follow the steps below to run the project locally:
+
+### 1️⃣ Clone the Repository
 ```bash
+git clone https://github.com/hasan6t7/e-commerce-task.git
+cd e-commerce-task
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+http://localhost:3000
