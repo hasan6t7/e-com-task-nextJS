@@ -90,7 +90,7 @@ export default function Header() {
 
             <div className="flex items-center gap-3 sm:gap-4">
               <Link
-                href="/account"
+                href="/register"
                 className="hidden sm:flex items-center gap-0.5 text-gray-700 hover:text-[#1163CF] transition-colors"
               >
                 <User className="w-6 h-6" />
@@ -221,12 +221,12 @@ export default function Header() {
               </Link>
 
               <Link
-                href="/account"
+                href="/register"
                 onClick={() => setIsMobileMenuOpen(false)}
                 className="flex items-center gap-3 px-4 py-3 text-gray-700 hover:bg-gray-50 rounded-md transition-colors"
               >
                 <User className="w-5 h-5" />
-                <span>My Account</span>
+                <span>Sign Up / Sign In</span>
               </Link>
             </div>
           </div>

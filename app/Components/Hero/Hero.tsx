@@ -47,7 +47,7 @@ const Hero = () => {
                   On all types of products
                 </h4>
                 <div>
-                  <Button className="bg-[#220AF5] text-sm font-normal absolute top-40 left-6 lg:left-32 md:top-64 lg:top-80">Shop Now</Button>
+                  <Button className="bg-[#1163CF]  hover:bg-[#0652b4] cursor-pointer font-normal absolute top-40 left-6 lg:left-32 md:top-64 lg:top-80">Shop Now</Button>
                 </div>
               </div>
             </CarouselItem>

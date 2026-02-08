@@ -1,3 +1,4 @@
+import BestSellingProduct from "./Components/BestSelling/BestSellingProduct";
 import Hero from "./Components/Hero/Hero";
 import NewArrival from "./Components/NewArrival/NewArrival";
 import ProductsPage from "./Components/Products/ProductsPage";
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <TopCategory />
       <TopElectricBrand />
+      <BestSellingProduct />
       <NewArrival />
       <ProductsPage />
     </div>
