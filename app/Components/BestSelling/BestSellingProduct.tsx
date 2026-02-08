@@ -5,6 +5,7 @@ import { ShoppingCart } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
+import { toast } from "react-toastify";
 
 interface Product {
   id: number;
@@ -44,7 +45,7 @@ const BestSellingProduct = () => {
 
   const handleAddToCart = (product: Product) => {
     addToCart(product, 1);
-    alert(`${product.productName} added to cart!`);
+    toast.success(`${product.productName} added to cart!`);
   };
 
   const displayedProducts = [...products]

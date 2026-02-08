@@ -14,6 +14,8 @@ import {
 } from "lucide-react";
 import { AiFillStar, AiOutlineStar, AiTwotoneStar } from "react-icons/ai";
 import ProCard from "@/app/Components/ProCard/ProCard";
+import { useCart } from "@/context/cart-context";
+import { toast } from "react-toastify";
 
 interface Product {
   id: number;
@@ -66,6 +68,7 @@ export default function ProductDetailsPage() {
   const [selectedImage, setSelectedImage] = useState(0);
   const [quantity, setQuantity] = useState(1);
   const [selectedColor, setSelectedColor] = useState(0);
+  const { addToCart } = useCart();
 
   useEffect(() => {
     fetchProduct();
@@ -94,22 +97,40 @@ export default function ProductDetailsPage() {
       setLoading(false);
     }
   };
+  const handleAddToCart = (product: Product) => {
+    addToCart(product, 1);
+    toast.success(`${product.productName} added to cart!`);
+  };
 
   const renderStars = (rating: number, size: "small" | "large" = "small") => {
     const starSize = size === "large" ? "w-7 h-7" : "w-5 h-5";
     return (
       <div className="flex items-center gap-1">
-      {[1, 2, 3, 4, 5].map((star) => {
-        if (star <= Math.floor(rating)) {
-          return <AiFillStar key={star} className={`${starSize} text-yellow-400`} />;
-        } else if (star - rating <= 0.5) {
-          return <AiTwotoneStar key={star} className={`${starSize} text-yellow-400`} />;
-        } else {
-          return <AiOutlineStar key={star} className={`${starSize} text-gray-300`} />;
-        }
-      })}
-    </div>
-
+        {[1, 2, 3, 4, 5].map((star) => {
+          if (star <= Math.floor(rating)) {
+            return (
+              <AiFillStar
+                key={star}
+                className={`${starSize} text-yellow-400`}
+              />
+            );
+          } else if (star - rating <= 0.5) {
+            return (
+              <AiTwotoneStar
+                key={star}
+                className={`${starSize} text-yellow-400`}
+              />
+            );
+          } else {
+            return (
+              <AiOutlineStar
+                key={star}
+                className={`${starSize} text-gray-300`}
+              />
+            );
+          }
+        })}
+      </div>
     );
   };
 
@@ -262,10 +283,13 @@ export default function ProductDetailsPage() {
                 <button className="flex-1 bg-[#1163CF] hover:bg-[#0e50b0] text-white py-3 rounded-md font-semibold transition-colors">
                   Buy Now
                 </button>
-                <button className="flex-1 border-2 border-gray-300 hover:bg-gray-50 text-gray-900 py-3 rounded-md font-semibold transition-colors">
+                <button
+                  onClick={() => handleAddToCart(product)}
+                  className="flex-1 border-2 bg-[#1163CF] hover:bg-[#0e50b0] cursor-pointer text-white py-3 rounded-md font-semibold transition-colors"
+                >
                   Add To Cart
                 </button>
-                <button className="border-2 border-gray-300 hover:bg-gray-50 p-3 rounded-md transition-colors">
+                <button className="border-2 border-gray-300 cursor-pointer hover:bg-gray-50 p-3 rounded-md transition-colors">
                   <Heart className="w-6 h-6 text-gray-700" />
                 </button>
               </div>
@@ -420,7 +444,6 @@ export default function ProductDetailsPage() {
                 <h3 className="text-lg font-semibold text-gray-900">
                   Product Reviews
                 </h3>
-                
               </div>
 
               <div className="space-y-6">

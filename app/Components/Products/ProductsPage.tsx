@@ -7,6 +7,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { AiFillStar, AiOutlineStar } from "react-icons/ai";
 import { useCart } from "@/context/cart-context";
+import { toast } from "react-toastify";
 
 interface Product {
   id: number;
@@ -46,7 +47,7 @@ export default function ProductsPage() {
 
   const handleAddToCart = (product: Product) => {
     addToCart(product, 1);
-    alert(`${product.productName} added to cart!`);
+    toast.success(`${product.productName} added to cart!`);
   };
 
   const displayedProducts = products.slice(0, displayCount);
