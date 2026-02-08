@@ -46,7 +46,7 @@ All data is handled using **dummy JSON data**—no backend integration is requir
 Follow the steps below to run the project locally:
 
 ```bash
-git clone https://github.com/hasan6t7/e-commerce-task.git
+git clone https://github.com/hasan6t7/e-com-task-nextJS
 cd e-commerce-task
 npm install
 npm run dev
