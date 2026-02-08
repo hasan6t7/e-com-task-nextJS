@@ -1,4 +1,4 @@
-# 🛒 E-Commerce Frontend Platform
+# 🛒 E-Commerce Platform (Frontend)
 
 A modern and fully responsive e-commerce frontend built as part of a **Frontend Developer technical assessment**.  
 The project follows the provided Figma design and is developed using **Next.js, TypeScript, Tailwind CSS, and shadcn/ui**.
